@@ -1,9 +1,13 @@
 {{ $footerSocial := .Site.Data.profile.social_media }}
 {{ $contact := .Site.Data.profile.contact_information }}
-
+<svg viewbox="0 0 100 25">
+    <path fill="#be2776" opacity="0.5" d="M0 30 V15 Q30 3 60 15 V30z" />
+    <path fill="#be2776" d="M0 30 V12 Q30 17 55 12 T100 11 V30z" />
+</svg>
 <footer class="footer">
-    <div class="uk-section">
-        <div class="uk-container uk-container-">
+
+    <div>
+        <div class="uk-container uk-container-large">
             <div class="uk-grid-match uk-grid-medium uk-text-left" uk-grid>
                 <div class="footer-text uk-width-1-4@m">
                     <a href="{{ .Site.BaseURL }}">

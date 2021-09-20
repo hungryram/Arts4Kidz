@@ -17,13 +17,12 @@ body .uk-heading-large,
 body .uk-heading-medium, 
 body .uk-heading-small, 
 body .uk-heading-xlarge {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Fredoka One', cursive;
     line-height: 1.5;
 }
 
 body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #777;
     font-size: 15px;
     line-height: 27px;
@@ -35,7 +34,7 @@ html body {
 }
 
 .main__content a {
-    color: #aa0817;
+    color: #A080C8;
     text-decoration: underline;
 }
 
@@ -58,7 +57,7 @@ ul.uk-breadcrumb>*>:hover {
 }
 
 a.uk-accordion-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-weight: 600;
     font-size: 1rem;
 }
@@ -83,7 +82,27 @@ a.uk-button-secondary {
 }
 
 .accent {
-    color: #aa0817;
+    color: #A080C8;
+}
+
+.accent-2 {
+    color: #B3D704;
+}
+
+.accent-3 {
+    color: #FA6200;
+}
+
+.bg {
+    background: #A080C8;
+}
+
+.bg-2 {
+    background: #B3D704;
+}
+
+.bg-3 {
+    background: #FA6200;
 }
 
 .uk-white {
@@ -92,7 +111,8 @@ a.uk-button-secondary {
 
 button.uk-button-primary,
 a.uk-button-primary {
-    background: #aa0817;
+    background: #A080C8;
+    border-radius: 50px;
     padding: 5px 40px;
     color: #FFF;
     display: inline-block;
@@ -104,13 +124,10 @@ a.uk-button-primary {
     border: none;
 }
 
-.slide_right:hover {
-    box-shadow: inset 200px 0 0 0 #19202A;
-}
 
 body .uk-button-primary.uk-active, body .uk-button-primary:active,
 body .uk-button-primary:focus, body .uk-button-primary:hover {
-    background-color: #aa0817;
+    background-color: #A080C8;
     color: #fff;
 }
 
@@ -128,7 +145,7 @@ body .uk-button-primary:focus, body .uk-button-primary:hover {
 @media screen and (min-width:800px) {
     div.page__banner .page__slider {
         content: '';
-        background: #aa0817;
+        background: #A080C8;
         position: absolute;
         width: 45%;
         height: 100%;
@@ -153,6 +170,10 @@ div.page__banner__inner {
 
 /* NAVBAR */
 
+nav.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: white;
+}
+
 div.top-navbar .uk-navbar-nav>li>a {
     min-height: 40px;
     text-transform: unset;
@@ -171,7 +192,7 @@ div.uk-navbar-dropdown ul li {
 }
 
 div.uk-navbar-dropdown ul li:hover {
-    background: #aa0817;
+    background: #A080C8;
     transition: .3s;
     color: #fff;
 }
@@ -195,16 +216,16 @@ div.uk-navbar-dropdown ul li {
 } */
 
 ul.uk-navbar-nav>li>a:not(.top-navbar a) {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-weight: 500;
     transition: .1s;
     color: #000;
 }
 
 div ul.uk-navbar-nav>li>a:hover {
-    border-bottom: 3px solid #aa0817;
+    border-bottom: 3px solid #A080C8;
     transition: .1s;
-    color: #aa0817;
+    color: #A080C8;
 }
 
 ul.uk-nav-parent-icon>.uk-parent>a::after {
@@ -249,53 +270,38 @@ div.hero-text p {
     }
 }
 
+svg#waves {
+    position: relative;
+    top: 150px;
+}
+
 /* FEATURED SECTION */
 
-.uk-section.uk-section-small.featured__section {
-    margin-top: -150px;
+div.featured__box {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
 }
 
-.featured__section .uk-card-default,
-.service__box .uk-card-default {
-    box-shadow: none;
-    transition: .3s ease;
-    border: 1px solid #eee;
-}
-
-.featured__section .uk-card-default:hover,
-.service__box .uk-card-default:hover {
-    background: #aa0817;
+.featured__section a {
     color: #fff;
-    transition: .3s ease;
-    border: 1px solid #aa0817;
 }
 
-.featured__section .uk-card-default:hover h3,
-.featured__section .uk-card-default:hover svg,
-.featured__section .uk-card-default:hover a.accent,
-.service__box .uk-card-default:hover h3,
-.service__box .uk-card-default:hover a.accent,
-.service__box .uk-card-default:hover svg {
+.featured__section a:hover {
+    text-decoration: none;
     color: #fff;
-    transition: .3s ease;
-    fill: #fff;
 }
 
-.service__box .uk-card-default:hover a.accent,
-.featured__section .uk-card-default:hover a.accent {
-    text-decoration: underline;
+#body > main > div.uk-section.uk-section-small.featured__section.uk-white > div > div > a.uk-first-column > div {
+    background: #A080C8;
 }
 
-.featured__section .uk-card-default h3,
-.featured__section .uk-card-default a {
-    transition: .3s ease;
+#body > main > div.uk-section.uk-section-small.featured__section.uk-white > div > div > a:nth-child(2) > div {
+    background: #B3D704;
 }
 
-.featured__section .uk-card-default .svg__icons svg,
-.service__box .uk-card-default .svg__icons svg {
-    width: 50px;
+#body > main > div.uk-section.uk-section-small.featured__section.uk-white > div > div > a:nth-child(3) > div {
+    background: #FA6200;
 }
-
 
 /* NUMBER COUNTER */
 
@@ -311,7 +317,7 @@ div.hero-text p {
 }
 
 .contact__icons a:hover {
-    color: #aa0817;
+    color: #A080C8;
     transition: .3s;
 }
 
@@ -319,7 +325,7 @@ div.hero-text p {
 
 div.box-top {
     position: absolute;
-    background: #aa0817;
+    background: #A080C8;
     width: 200px;
     left: -50px;
     z-index: -1;
@@ -347,12 +353,12 @@ div.uk-card-secondary.uk-card-hover:hover {
 
 .faq__page .uk-card-body h3 {
     font-size: 1rem;
-    border-left: 4px solid #aa0817;
+    border-left: 4px solid #A080C8;
     padding-left: 10px;
 }
 
 ul.service__list__faq li a:hover {
-    color: #aa0817;
+    color: #A080C8;
     transition: .3s;
 }
 
@@ -373,7 +379,7 @@ div.footer-credit ul li a {
 }
 
 .contact-detail span.uk-icon-button {
-    background: #aa0817;
+    background: #A080C8;
 }
 
 .contact-detail svg {
@@ -392,12 +398,17 @@ div.footer-credit ul li a {
     list-style: none;
 }
 
+footer.footer {
+    padding: 0;
+    background: #be2776;
+}
+
 footer.footer svg {
     transition: .3s;
 }
 
 footer.footer svg:hover {
-    color: #aa0817;
+    color: #A080C8;
     transition: .3s;
 }
 
