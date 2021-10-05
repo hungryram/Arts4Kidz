@@ -48,3 +48,5 @@ fields:
     max: 
     labelField: 
   label: Programs
+pages:
+- content/programs/_index.md
