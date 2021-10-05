@@ -6,10 +6,10 @@ header:
   enable_white_text: false
   enable_white_text_top: false
 branding:
-  site_title: RN Insurance
+  site_title: Arts 4 Kidz
   logo: https://res.cloudinary.com/hungryram19/image/upload/v1632099442/ashley-fink/arts4kidz/logo.jpg
   dark_logo: https://res.cloudinary.com/hungryram19/image/upload/v1632099442/ashley-fink/arts4kidz/logo.jpg
-  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1631038615/randy-nong/rn-insurance/Gray-01_zr1qjl.png
+  favicon: 
   logo_width: 
 colors:
   button_background_color: ''
@@ -22,9 +22,7 @@ footer:
   footer_background_color: ''
   background_image: ''
   enable_black_text: false
-  footer_bio: RN Insurance is a local insurance agency located in Lowell, MA. We are
-    committed to providing clients in MA and NH with the highest quality insurance
-    plans.
+  footer_bio: Neque tempora officia impedit porro deserunt atque voluptatum aut voluptatibus, pariatur necessitatibus fugit eius consequuntur nostrum velit consequatur error cumque distinctio illo?
   disclaimer: ''
   equal_housing_logo: false
   mls_logo: false

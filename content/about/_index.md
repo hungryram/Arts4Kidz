@@ -1,7 +1,7 @@
 +++
-body = "RN Insurance, Inc. is located in Lowell, MA. Founded by Randy Nong, RN Insurance started as a passion to help people by providing the best customer service and dependability. The drive to help people save money without overpaying for insurance led Randy to start RN Insurance, Inc.\n\nAs your licensed insurance broker, we are dedicated to helping you find the right coverage for your insurance needs. Whether you are looking for auto, homeowners, or life insurance, RN Insurance, Inc is committed to delivering you the best-customized insurance at an affordable price. So you only pay for what you need.\n\nAt RN Insurance, Inc. we go out of our way to treat everyone and share industry knowledge to ensure you and your loved ones are fully protected. We are excited to assist with your insurance needs. If you have any questions, please don't hesitate to contact our office."
-heading = "Randy Nong - Founder of RN Insurance"
-image = "https://res.cloudinary.com/hungryram19/image/upload/v1631415692/randy-nong/rn-insurance/randy-nong_xefjew.jpg"
+body = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quisquam ab fuga, inventore obcaecati sunt nemo cupiditate at ratione tenetur aliquid! Rem, sint fugit. Expedita vel aliquam officia minima debitis!"
+heading = "Founded by Ashley Finkelstein"
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1632112183/ashley-fink/arts4kidz/girl-playing-sax.jpg"
 image_alt_tag = "Randy Nong with red tie"
 title = "About"
 [banner]

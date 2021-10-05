@@ -19,13 +19,29 @@ body .uk-heading-small,
 body .uk-heading-xlarge {
     font-family: 'Fredoka One', cursive;
     line-height: 1.5;
+    color: #644ab9;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #777;
     font-size: 15px;
     line-height: 27px;
+}
+
+.bigHalfCircle {
+    position: absolute;
+    bottom: 99.8%;
+    left: 0;
+    right: 0;
+    height: 12px;
+    width: 100%;
+}
+
+input.uk-input,
+textarea.uk-textarea {
+    border-radius: 30px;
+    padding: 20px;
 }
 
 html body {
@@ -42,18 +58,10 @@ html body {
     color: inherit;
 }
 
-ul.uk-breadcrumb>*>* {
-    color: #fff;
-}
 
 ul.uk-breadcrumb li:last-child a {
     font-weight: 700;
     text-decoration: underline;
-}
-
-ul.uk-breadcrumb>*>:focus,
-ul.uk-breadcrumb>*>:hover {
-    color: #fff;
 }
 
 a.uk-accordion-title {
@@ -68,9 +76,6 @@ form label {
     font-weight: 600;
 }
 
-h1.h1-title {
-    color:#fff;
-}
 
 a.uk-button-secondary {
     background: white;
@@ -131,42 +136,13 @@ body .uk-button-primary:focus, body .uk-button-primary:hover {
     color: #fff;
 }
 
-@media screen and (max-width: 800px) {
-    div.page__banner {
-        background: #DBDBDB!important;
-    }
-
-    h1.h1-title,
-    ul.uk-breadcrumb>*>* {
-        color:#19202A;
-    }
+div.page__banner {
+    background: rgb(174 167 182) no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
 }
 
-@media screen and (min-width:800px) {
-    div.page__banner .page__slider {
-        content: '';
-        background: #A080C8;
-        position: absolute;
-        width: 45%;
-        height: 100%;
-        top: 0;
-        -webkit-transform-origin: 100% 0;
-        -ms-transform-origin: 100% 0;
-        transform-origin: 100% 0;
-        -webkit-transform: skew(
-    -45deg
-    );
-        -ms-transform: skew(-45deg);
-        transform: skew(
-    -45deg
-    );
-    }
-}
 
-div.page__banner__inner {
-    position: relative;
-    z-index: 1;
-}
 
 /* NAVBAR */
 
@@ -418,14 +394,8 @@ footer.footer svg:hover {
     }
 }
 
-/* SELECT 2 */
-
-body .select2-container--default .select2-selection--multiple {
-    border-radius: 0;
-    border: 1px solid #e5e5e5;
-    height: 40px;
-}
-
-span.select2.select2-container.select2-container--default.select2-container--below {
-    overflow: scroll;
+.contact__icons .uk-icon-button.uk-icon,
+a.uk-icon-button.uk-margin-small-right.uk-icon {
+    background: #be2776;
+    color: #fff;
 }

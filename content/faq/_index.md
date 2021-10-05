@@ -1,9 +1,5 @@
 +++
 title = "Frequently Asked Questions"
-[menu.main]
-name = "FAQ"
-parent = "Resources"
-weight = 1
 [search_engine_optimization]
 meta_description = "Find your answer with FAQ for various policies. Contact your local RN Insurance, Inc to get your questions answered."
 title_tag = "RN Insurance: General Insurance Questions and More"
