@@ -35,11 +35,9 @@ sections:
 - type: document
   path: content/programs/_index.md
   label: Programs
-  match: "**/*"
 - type: document
   path: content/gallery/_index.md
   label: Gallery
-  match: "**/*"
 - type: document
   path: content/about/_index.md
   label: About
