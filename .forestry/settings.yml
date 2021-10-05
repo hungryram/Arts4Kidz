@@ -32,14 +32,14 @@ sections:
   - blog
 - type: heading
   label: Default Pages
-- type: directory
-  path: content/insurance
-  label: Insurance
-  create: documents
+- type: document
+  path: content/programs/_index.md
+  label: Programs
   match: "**/*"
-  templates:
-  - services
-  - heading-and-body
+- type: document
+  path: content/gallery/_index.md
+  label: Gallery
+  match: "**/*"
 - type: document
   path: content/about/_index.md
   label: About
@@ -49,9 +49,6 @@ sections:
 - type: document
   path: content/faq/_index.md
   label: FAQ
-- type: document
-  path: content/testimonials/_index.md
-  label: Testimonials
 - type: heading
   label: Legal
 - type: directory
