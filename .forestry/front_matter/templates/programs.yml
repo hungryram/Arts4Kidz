@@ -1,4 +1,50 @@
 ---
 label: Programs
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
+- name: programs
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Programs
