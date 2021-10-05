@@ -1,10 +1,21 @@
 {{ define "main" }}
 <div class="uk-section">
     <div class="uk-container">
-        <h2>Our students</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel corrupti modi beatae incidunt eveniet esse. Repellendus labore minus natus praesentium? Quam nostrum officiis placeat aliquam enim sed id ducimus?</p>
+        <h2>{{ .Params.heading }}</h2>
+        <p>{{ .Params.body | markdownify }}</p>
         <a href="#" class="uk-button uk-button-primary">Donate</a>
     </div>
 </div>
-
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid="parallax: 150">
+            
+        {{ range .Params.gallery }}
+        <div>
+            <img src="{{ . }}" alt="Arts 4 Kidz">
+        </div>
+        {{ end }}
+        </div>
+    </div>
+</div>
 {{ end }}

@@ -3,7 +3,7 @@
     <div class="uk-container uk-container-large">
         <div class="uk-grid-small uk-child-width-expand@s uk-text-center uk-grid-match" uk-grid >
             {{ range $featured.blocks }}
-                <a href="">
+                <a href="{{ .link }}">
                     <div class="uk-card featured__box">
                         <div class="uk-card-body">
                             <h3 class="uk-h4 uk-white">{{ .heading }}</h3>
