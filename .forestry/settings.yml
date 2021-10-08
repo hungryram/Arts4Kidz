@@ -33,6 +33,10 @@ sections:
 - type: heading
   label: Default Pages
 - type: document
+  path: content/sponsors/_index.md
+  label: Sponsors
+  match: "**/*"
+- type: document
   path: content/programs/_index.md
   label: Programs
 - type: document
