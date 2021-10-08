@@ -3,10 +3,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 2
-[[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
@@ -15,8 +11,8 @@ name = "Donate"
 url = "/donate"
 weight = 4
 [[menu.main]]
-name = "Contact"
-url = "/contact"
+name = "About"
+url = "/about"
 weight = 3
 [[menu.main]]
 name = "Gallery"
