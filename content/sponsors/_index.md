@@ -2,6 +2,8 @@
 body = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis itaque placeat totam corporis saepe, asperiores quis suscipit recusandae eum aspernatur doloremque obcaecati rem natus. Molestias hic iure distinctio doloribus id."
 heading = "Thank you to all our sponsors!"
 title = "Sponsors"
+[menu.main]
+weight = 5
 [[sponsors]]
 detail = "Hungry Ram is a web design studio owned by Ram Dettmer. Ram works with clients all across the country and is delivering high quality websites."
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1633669944/ashley-fink/arts4kidz/large-hungry-ram-black-logo2_noiehb.png"
