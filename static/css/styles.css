@@ -80,7 +80,15 @@ form label {
 a.uk-button-secondary {
     background: white;
     color: #222;
+    border-radius: 50px;
+    padding: 5px 40px;
 }
+
+a.uk-button-secondary:hover {
+    background: #644ab9;
+    color: #fff;
+}
+
 
 .uk-text-medium {
     font-weight: 500;
@@ -137,7 +145,7 @@ body .uk-button-primary:focus, body .uk-button-primary:hover {
 }
 
 div.page__banner {
-    background: rgb(174 167 182) no-repeat;
+    background: rgb(241 241 241) no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -219,7 +227,7 @@ ul.uk-nav-parent-icon>.uk-parent>a::after {
 }
 
 div.uk-modal-dialog {
-    background: #19202A;
+    background: linear-gradient(rgba(160,128,200,0.95),rgba(160,128,200,0.95)),url("https://res.cloudinary.com/hungryram19/image/upload/v1632110188/ashley-fink/arts4kidz/music-notes-2.jpg");
 }
 
 /* HERO */
@@ -246,11 +254,13 @@ div.hero-text p {
     }
 }
 
-svg#waves {
-    position: relative;
-    top: 150px;
+@media screen and (min-width: 800px) {
+    svg#waves {
+        position: relative;
+        top: 150px;
+    }
+    
 }
-
 /* FEATURED SECTION */
 
 div.featured__box {

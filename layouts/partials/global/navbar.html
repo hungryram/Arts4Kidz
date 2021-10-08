@@ -14,7 +14,7 @@
             <div uk-navbar>
                 <div class="uk-navbar-center">
                     <a href="{{ .Site.BaseURL }}">
-                        <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="300" class="white-logo">
+                        <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="250" class="white-logo">
                     </a>
                 </div>
             </div>
@@ -55,15 +55,13 @@
 
 <!-- mobile -->
 <div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive: top: 400">
-    <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-box-shadow-small" style="padding: 0 15px;">
+    <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-box-shadow-small" style="padding: 0 15px;background: #be2776">
         <div class="uk-navbar-left">
-            <a href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="140">
-            </a>
+            <a href="/donate" class="uk-white uk-text-uppercase">Help donate</a>
         </div>
         <div class="uk-navbar-right">
             <a class="uk-navbar-toggle" href="#modal-full" uk-toggle>
-                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="15" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="10" height="2"></rect></svg>
+                <svg width="20" fill="#fff" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="40" height="2"></rect><rect y="15" width="20" height="2"></rect></svg>
             </a>
         </div>
     </nav>
@@ -88,7 +86,7 @@
                 </ul>
             </li>
             {{ else }}
-            <li><a href="{{ .URL | absURL }}" class="uk-text-light">{{ .Name }}</a></li>
+            <li><a href="{{ .URL | absURL }}" class="uk-text-light uk-text-bold">{{ .Name }}</a></li>
             {{ end }}
             {{ end }}
         </ul>
