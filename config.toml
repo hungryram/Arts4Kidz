@@ -1,4 +1,4 @@
-baseURL = "https://www.artskidz.org"
+baseURL = "https://www.arts4kidz.org/"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 languageCode = "en-us"
