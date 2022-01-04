@@ -1,12 +1,12 @@
 +++
-body = "Working together with our community, we provide access to education and resources in an effort to enrich, expand, and promote the arts! Arts 4 Kidz is a non-profit for less fortunate kids up to the age of 18, to learn what the arts is about! Whether it's dancing, signing, musical theatre, or learning a new instrument, Arts 4 Kidz is here to help! Contact us for more information!"
+body = "Working together with our community, we provide access to education and resources in an effort to enrich, expand, and promote the arts! Arts 4 Kidz is a non-profit for kids up to the age of 18 to apply for scholarships on an as needed basis. The Arts-4-Kidz Foundation’s resources will be used for those in need to gain access to materials, lessons, or even instruments."
 heading = "Founded by Ashley Finkelstein"
-image = "https://res.cloudinary.com/hungryram19/image/upload/v1632112183/ashley-fink/arts4kidz/girl-playing-sax.jpg"
-image_alt_tag = "Randy Nong with red tie"
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1633445513/ashley-fink/arts4kidz/girl-playing-violin.jpg"
+image_alt_tag = ""
 title = "About"
 [banner]
-body = "Providing the best knowledge and experience to help you understand your coverage options."
-heading = "Helping customers identify the right insurance coverage that best fits your needs."
+body = ""
+heading = ""
 [search_engine_optimization]
 meta_description = ""
 no_index = false
