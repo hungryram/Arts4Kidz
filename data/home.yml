@@ -2,22 +2,34 @@
 featured_section:
   blocks:
   - heading: About
-    body: Optio aperiam fugiat sunt, repellendus laboriosam obcaecati voluptatum, quidem nemo sit, necessitatibus id accusamus voluptate tempore nulla odit veritatis culpa dicta ipsa.
+    body: Working together with our community, we provide access to education and
+      resources in an effort to enrich, expand, and promote the arts!
     link: "/about"
+    svg: ''
   - heading: How you can help
-    body: Optio aperiam fugiat sunt, repellendus laboriosam obcaecati voluptatum, quidem nemo sit, necessitatibus id accusamus voluptate tempore nulla odit veritatis culpa dicta ipsa.
+    body: Optio aperiam fugiat sunt, repellendus laboriosam obcaecati voluptatum,
+      quidem nemo sit, necessitatibus id accusamus voluptate tempore nulla odit veritatis
+      culpa dicta ipsa.
     link: "/donate"
     image: ''
+    svg: ''
   - heading: Gallery
-    body: Optio aperiam fugiat sunt, repellendus laboriosam obcaecati voluptatum, quidem nemo sit, necessitatibus id accusamus voluptate tempore nulla odit veritatis culpa dicta ipsa.
+    body: Optio aperiam fugiat sunt, repellendus laboriosam obcaecati voluptatum,
+      quidem nemo sit, necessitatibus id accusamus voluptate tempore nulla odit veritatis
+      culpa dicta ipsa.
     link: "/gallery"
+    svg: ''
 hero_image:
   heading: Transforming lives through music
-  body: Arts 4 Kidz is a nonprofit organization providing free fine arts exposure to children. Art contribute to a child's self-esteem and we believe the importance of art will help nurture children.
+  body: Arts 4 Kidz is a nonprofit organization providing free fine arts exposure
+    to children. Art contribute to a child's self-esteem and we believe the importance
+    of art will help nurture children.
 introduction:
   subtitle: RN Insurance, Inc is located in Lowell, MA
   heading: Designed to nurture creativity and inspire growth in children
-  body: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quisquam ab fuga, inventore obcaecati sunt nemo cupiditate at ratione tenetur aliquid! Rem, sint fugit. Expedita vel aliquam officia minima debitis!
+  body: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quisquam
+    ab fuga, inventore obcaecati sunt nemo cupiditate at ratione tenetur aliquid!
+    Rem, sint fugit. Expedita vel aliquam officia minima debitis!
 banner:
   heading: Musical Theatre Program for all kids
 service_list:
