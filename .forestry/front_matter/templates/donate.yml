@@ -1,4 +1,23 @@
 ---
 label: Donate
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
