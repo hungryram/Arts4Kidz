@@ -12,7 +12,7 @@
                     <ul class="contact__icons uk-list">
                     {{ if $footerContact.phone }}<li class="uk-margin"><a href="tel:{{ $footerContact.phone }}"><span class="uk-margin-small-right uk-icon-button" uk-icon="receiver"></span>{{ $footerContact.phone }}</a></li>{{ end }}
                     {{ if $footerContact.cell }}<li class="uk-margin"><a href="tel:{{ $footerContact.cell }}"><span class="uk-margin-small-right uk-icon-button" uk-icon="phone"></span>{{ $footerContact.cell }}</a></li>{{ end }}
-                    {{ if $footerContact.email }}<li class="uk-margin"><a href="tel:{{ $footerContact.email }}"><span class="uk-margin-small-right uk-icon-button" uk-icon="mail"></span>{{ $footerContact.email }}</a></li>{{ end }}
+                    {{ if $footerContact.email }}<li class="uk-margin"><a href="mailto:{{ $footerContact.email }}"><span class="uk-margin-small-right uk-icon-button" uk-icon="mail"></span>{{ $footerContact.email }}</a></li>{{ end }}
                     {{ if $footerContact.address }}<li class="uk-margin"><span class="uk-margin-small-right uk-icon-button" uk-icon="location"></span><a href="{{ if $footerContact.google_page_link }}{{ $footerContact.google_page_link }}{{ else }}https://www.google.com/maps/place/{{ $footerContact.address }},+{{ $footerContact.city }},+{{ $footerContact.state }}{{ end }}">{{ $footerContact.address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></li>{{ end }}                    
                     </ul>
                     <h3>Connect with us</h3>
