@@ -1,5 +1,5 @@
 +++
-body = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quisquam ab fuga, inventore obcaecati sunt nemo cupiditate at ratione tenetur aliquid! Rem, sint fugit. Expedita vel aliquam officia minima debitis!"
+body = "Working together with our community, we provide access to education and resources in an effort to enrich, expand, and promote the arts!"
 heading = "Founded by Ashley Finkelstein"
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1632112183/ashley-fink/arts4kidz/girl-playing-sax.jpg"
 image_alt_tag = "Randy Nong with red tie"
@@ -9,6 +9,7 @@ body = "Providing the best knowledge and experience to help you understand your 
 heading = "Helping customers identify the right insurance coverage that best fits your needs."
 [search_engine_optimization]
 meta_description = ""
+no_index = false
 title_tag = ""
 
 +++
