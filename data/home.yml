@@ -12,10 +12,6 @@ featured_section:
     link: "/donate"
     image: ''
     svg: ''
-  - heading: Gallery
-    body: Coming soon!
-    link: "/gallery"
-    svg: ''
 hero_image:
   heading: Transforming Lives Through Music!
   body: Working together with our community, we provide access to education and resources
@@ -25,9 +21,9 @@ introduction:
   heading: What is Arts 4 Kidz all about?
   body: Working together with our community, we provide access to education and resources
     in an effort to enrich, expand, and promote the arts! Arts 4 Kidz is a non-profit
-    for less fortunate kids up to the age of 18, to learn what the arts is about!
-    Whether it's dancing, signing, musical theatre, or learning a new instrument,
-    Arts 4 Kidz is here to help! Contact us for more information!
+    for kids up to the age of 18 to apply for scholarships on an as needed basis.
+    The Arts-4-Kidz Foundation’s resources will be used for those in need to gain
+    access to materials, lessons, or even instruments. Contact us for more information!
 banner:
   heading: How to Help Arts 4 Kidz
 service_list:
