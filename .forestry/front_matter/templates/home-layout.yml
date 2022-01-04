@@ -20,6 +20,16 @@ fields:
       schema:
         format: markdown
     label: Body
+  - name: button_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
   label: Hero Image
 - name: featured_section
   type: field_group
