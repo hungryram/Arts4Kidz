@@ -4,6 +4,7 @@ enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
 name = "Donate"
+url = "/donate"
 weight = 3
 [[menu.main]]
 name = "Board of Directors"
