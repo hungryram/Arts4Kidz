@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="uk-section">
     <div class="uk-container">
-        <h2>How you can help</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel corrupti modi beatae incidunt eveniet esse. Repellendus labore minus natus praesentium? Quam nostrum officiis placeat aliquam enim sed id ducimus?</p>
+        <h2>{{ .Params.heading }}</h2>
+        <p>{{ .Params.body }}</p>
         <form action="https://www.paypal.com/donate" method="post" target="_top">
             <input type="hidden" name="hosted_button_id" value="YJVHMK57PZFGN" />
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
