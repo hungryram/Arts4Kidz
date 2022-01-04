@@ -1,28 +1,29 @@
 ---
 company_name: Arts 4 Kidz
 social_media:
-  instagram: 
-  twitter: 'te'
-  facebook: 'te'
+  instagram: ''
+  twitter: ''
+  facebook: arts4kidsshoals
   pinterest: ''
   yelp: ''
   linkedin: ''
   tiktok: ''
   youtube: ''
 contact_information:
-  phone: (256) 712-5549
+  phone: "(256) 712-5549"
   name: Ashley Finkelstein
-  cell: 
-  address: 
+  cell: ''
+  address: ''
   email: ashleyfink@finksmusic.com
   license: ''
-  city: 
-  state: 
+  city: ''
+  state: ''
   zip_code: ''
 search_engine_optimization:
   title_tag: ''
-  meta_description: 
-  twitter_card: 
-    twitter_username: 
+  meta_description: ''
+  twitter_card:
+    twitter_username: ''
   facebook:
     app_id: ''
+  no_index: false
