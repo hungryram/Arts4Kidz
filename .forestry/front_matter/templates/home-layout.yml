@@ -105,6 +105,25 @@ fields:
     config:
       required: false
     label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  - name: button_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
   label: Banner
 - name: service_list
   type: field_group
