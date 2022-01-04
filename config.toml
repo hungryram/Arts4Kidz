@@ -4,11 +4,11 @@ enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
 name = "Donate"
-weight = 6
+weight = 3
 [[menu.main]]
-name = "Gallery"
+name = "Board of Directors"
 url = "/gallery"
-weight = 2
+weight = 4
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -16,4 +16,4 @@ weight = 1
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 3
+weight = 2
