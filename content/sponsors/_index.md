@@ -1,5 +1,5 @@
 +++
-body = ""
+body = "If you would like to become a sponsor please contact our president, Ashley Finkelstein. "
 heading = "Thank you to all our sponsors!"
 title = "Sponsors"
 [menu.main]
