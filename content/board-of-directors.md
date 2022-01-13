@@ -3,6 +3,8 @@ meta_description = ""
 no_index = false
 title = "Board of Directors"
 title_tag = ""
+[menu.main]
+weight = 6
 
 +++
 **Ashley Finkelstein - President/Chair**

@@ -5,7 +5,7 @@ meta_description = "Work with Randy Nong at RN Insurance. Please don’t hesitat
 title = "Contact Us"
 title_tag = "Contact RN Insurance"
 [menu.main]
-weight = 6
+weight = 7
 [search_engine_optimization]
 meta_description = "We're here to help! Contact RN Insurance through a secure form, phone, or visit our office located in Lowell, MA."
 no_index = false

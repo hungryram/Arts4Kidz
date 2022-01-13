@@ -7,7 +7,7 @@ name = "Donate"
 url = "/donate"
 weight = 3
 [[menu.main]]
-name = "Board of Directors"
+name = "Gallery"
 url = "/gallery"
 weight = 4
 [[menu.main]]
