@@ -1,16 +1,18 @@
 {{ define "main" }}
-    <div class="uk-section uk-animation-slide-bottom-small">
+<div class="uk-section">
+    <div class="uk-container">
+        <div>
+            {{ .Params.body }}
+        </div>
+    </div>
+</div>
+    <div class="uk-section">
         <div class="uk-container uk-container-small">  
-            {{ if .Params.hide_press }}
-            <div class="uk-text-center">
-                <h2>Coming soon</h2>
-            </div>
-            {{ else }}
-            {{ range .Params.press }}
+            {{ range .Params.events }}
                 {{ if .hide_article }}
 
                 {{ else }}
-                <div class="uk-card uk-card-default uk-grid-collapse uk-margin-medium-bottom uk-flex uk-flex-middle" uk-grid>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-flex uk-flex-middle" uk-grid>
                     <div class="uk-width-1-2@s">
                         <div class="uk-card-media-left uk-cover-container">
                             <img src="{{ .image }}" alt="" uk-cover>
@@ -19,14 +21,15 @@
                     </div>
                     <div class="uk-width-expand@s">
                         <div class="uk-card-body">
-                            <p class="uk-margin-remove uk-text-uppercase">{{ .subtitle }}</p>
                             <h3 class="uk-text-uppercase uk-h4">{{ .heading }}</h3>
-                            <a href="{{ .link }}" target="_blank" class="uk-link-reset uk-text-bold uk-text-default uk-text-uppercase">Read full Article</a>
+                            <p>{{ .description }}</p>
+                            <div>
+                                {{ .button_code | safeHTML }}
+                            </div>
                         </div>
                     </div>
                 </div>
                 {{ end }}
-            {{ end }}
             {{ end }}
         </div>
     </div>
