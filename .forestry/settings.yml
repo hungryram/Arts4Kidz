@@ -33,6 +33,10 @@ sections:
 - type: heading
   label: Default Pages
 - type: document
+  path: content/events/_index.md
+  label: Events
+  match: "**/*"
+- type: document
   path: content/donate/_index.md
   label: Donate
 - type: document
