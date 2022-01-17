@@ -1,15 +1,33 @@
 {{ define "main" }}
-    <div class="uk-section">
-        <div class="uk-container">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="UBUYT2YPFNMZW">
-                <table>
-                <tr><td><input type="hidden" name="on0" value="Dietary Restrictions?">Dietary Restrictions?</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-                </table>
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
+    <div class="uk-section uk-animation-slide-bottom-small">
+        <div class="uk-container uk-container-small">  
+            {{ if .Params.hide_press }}
+            <div class="uk-text-center">
+                <h2>Coming soon</h2>
+            </div>
+            {{ else }}
+            {{ range .Params.press }}
+                {{ if .hide_article }}
+
+                {{ else }}
+                <div class="uk-card uk-card-default uk-grid-collapse uk-margin-medium-bottom uk-flex uk-flex-middle" uk-grid>
+                    <div class="uk-width-1-2@s">
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="{{ .image }}" alt="" uk-cover>
+                            <canvas width="300" height="280"></canvas>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@s">
+                        <div class="uk-card-body">
+                            <p class="uk-margin-remove uk-text-uppercase">{{ .subtitle }}</p>
+                            <h3 class="uk-text-uppercase uk-h4">{{ .heading }}</h3>
+                            <a href="{{ .link }}" target="_blank" class="uk-link-reset uk-text-bold uk-text-default uk-text-uppercase">Read full Article</a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            {{ end }}
+            {{ end }}
         </div>
     </div>
 {{ end }}
