@@ -21,12 +21,6 @@ Nathan Ryan
 
 Ian Loeppky
 
-Jerry Foster
-
 Gwen Schajatovic
 
-Jerry Foster
-
 Eric Kirkman
-
-Anslee Rainwater
