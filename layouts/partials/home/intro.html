@@ -1,4 +1,3 @@
-{{ $optBlock := dict "display" "block" }}
 
 <div class="uk-section">
     <div class="uk-container">
@@ -9,7 +8,7 @@
             <div class="uk-width-1-2@s">
                 <div class="uk-card">
                     <h2 class="uk-margin-small-top">{{ .Site.Data.home.introduction.heading }}</h2>
-                    {{ .Site.Data.home.introduction.body | $.Page.RenderString $optBlock }}
+                    {{ .Site.Data.home.introduction.body }}
                     <a href="/about" class="uk-button uk-button-primary slide_right">Learn more</a>
                 </div>
             </div>
